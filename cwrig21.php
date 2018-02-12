@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Assignment02 - Charlotte Wright</title>
-		<link rel="stylesheet" href="css/styles.css">
-		<link rel="stylesheet" href="css/navigation.css">
-	</head>
+	<?php include "inc/head.inc"; ?>
 
 	<body>
 	<div class="container">
@@ -14,22 +9,13 @@
 			<h1>Charlotte Wright – Coder</h1>
 		</header>
 
-		<nav>
-			<div class="menu">
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="lfusilli.html">Fusilli</a></li>
-					<li><a href="ghernan6.html">Hernandez</a></li>
-					<li class="current"><a href="cwrig21.html">Wright</a></li>
-				</ul>
-			</div><!--menu-->
-		</nav>
+		<?php include "inc/nav.inc"; ?>
 
 		<article>
 			<p>Charlotte Wright is serving as the coder for this assignment.</p>
 
 			<h2>About Charlotte</h2>
-			<p>I am a Computer Science major and senior. I am the president of the University of Rochester Cinema Group. We should free movies every week and lots of other events. Check out the Cinema Group’s website: http://sa.rochester.edu/urcg/index. I’m from lower NY, an hour from NYC. I am the oldest of 4 but also the shortest.</p>
+			<p>I am a Computer Science major and senior. I am the president of the University of Rochester Cinema Group. We should free movies every week and lots of other events. Check out the Cinema Group’s website: <a href="http://sa.rochester.edu/urcg/index">URCG</a>. I'm from lower NY, an hour from NYC. I am the oldest of 4 but also the shortest.</p>
 
 			<h2>Job Experience</h2>
 			<p>Last summer I worked at IBM as a Research Intern. I worked with Docker, tested performance GATK4 pipelines in cloud systems using Apache Spark, and focused on Sequencing Data and Genotyping. The summer of 2016, I worked at the New York Power Authority as a Developmental Intern for the Electronic Records Management Department. I worked in the Digital Warehouse Department and worked with variety of projects using SharePoint as a collaborative workspace.</p>
@@ -47,5 +33,7 @@
 		</article>
 
 	</div><!--container-->
+	<?php include "inc/scripts.inc"; ?>
+	
 	</body>
 </html>

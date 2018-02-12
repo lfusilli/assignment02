@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Assignment02 - Louis Fusilli</title>
-		<link rel="stylesheet" href="css/styles.css">
-		<link rel="stylesheet" href="css/navigation.css">
-	</head>
+	<?php include "inc/head.inc"; ?>
 
 	<body>
 	<div class="container">
@@ -14,16 +9,7 @@
 			<h1>Louis Fusilli - Information Architect</h1>
 		</header>
 
-		<nav>
-			<div class="menu">
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li class="current"><a href="lfusilli.html">Fusilli</a></li>
-					<li><a href="ghernan6.html">Hernandez</a></li>
-					<li><a href="cwrig21.html">Wright</a></li>
-				</ul>
-			</div><!--menu-->
-		</nav>
+		<?php include "inc/nav.inc"; ?>
 
 		<article>
 			<p>Louis Fusilli is serving as the information architect for this assignment.</p>
@@ -45,5 +31,7 @@
 		</article>
 
 	</div><!--container-->
+	<?php include "inc/scripts.inc"; ?>
+	
 	</body>
 </html>

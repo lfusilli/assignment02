@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Assignment02 - Phoenix</title>
-		<link rel="stylesheet" href="css/styles.css">
-		<link rel="stylesheet" href="css/navigation.css">
-	</head>
+	<?php include "inc/head.inc"; ?>
 
 	<body>
 	<div class="container">
@@ -14,16 +9,7 @@
 			<h1>Assignment02 - Phoenix</h1>
 		</header>
 
-		<nav>
-			<div class="menu">
-				<ul>
-					<li class="current"><a href="index.html">Home</a></li>
-					<li><a href="lfusilli.html">Fusilli</a></li>
-					<li><a href="ghernan6.html">Hernandez</a></li>
-					<li><a href="cwrig21.html">Wright</a></li>
-				</ul>
-			</div><!--menu-->
-		</nav>
+		<?php include "inc/nav.inc"; ?>
 		
 		<img class="mySlides" src="images/cwright.jpg" width="300">
 		<img class="mySlides" src="images/ghernan6.jpg" width="300">
@@ -44,6 +30,8 @@
 		</article>
 
 	</div><!--container-->
+	
+	<?php include "inc/scripts.inc"; ?>
 	
 	<script>
 	var slideIndex = 1;
