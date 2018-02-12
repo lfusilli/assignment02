@@ -15,7 +15,7 @@
 			<p>Charlotte Wright is serving as the coder for this assignment.</p>
 
 			<h2>About Charlotte</h2>
-			<p>I am a Computer Science major and senior. I am the president of the University of Rochester Cinema Group. We should free movies every week and lots of other events. Check out the Cinema Group’s website: <a href="http://sa.rochester.edu/urcg/index">URCG</a>. I'm from lower NY, an hour from NYC. I am the oldest of 4 but also the shortest.</p>
+			<p>I am a Computer Science major and senior. I am the president of the University of Rochester Cinema Group. We show free movies every week and lots of other events. Check out the Cinema Group’s website: <a href="http://sa.rochester.edu/urcg/index">URCG</a>. I'm from lower NY, an hour from NYC. I am the oldest of 4 but also the shortest.</p>
 
 			<h2>Job Experience</h2>
 			<p>Last summer I worked at IBM as a Research Intern. I worked with Docker, tested performance GATK4 pipelines in cloud systems using Apache Spark, and focused on Sequencing Data and Genotyping. The summer of 2016, I worked at the New York Power Authority as a Developmental Intern for the Electronic Records Management Department. I worked in the Digital Warehouse Department and worked with variety of projects using SharePoint as a collaborative workspace.</p>
