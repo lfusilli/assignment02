@@ -1,5 +1,32 @@
 .menu .is-current {
-	color: black;
+	color: #ffffcc;
+	background-color: #660066;
 	font-weight: bold;
 	font-size: 30px;
+	border: ;
+}
+
+.menu ul{
+  list-style-type: none;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 0px;
+  text-align: center;
+}
+
+.menu ul li{
+  display: inline-block;
+}
+
+.menu ul li a{
+  display: block;
+  font-weight: bold;
+	font-size: 25px;
+  color:  #ff5500;
+  padding: 20px;
+}
+
+.menu ul li a:hover{
+	color: #ffffcc;
+  background-color:  #ff6600;
 }
