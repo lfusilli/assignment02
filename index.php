@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<?php include "inc/head.inc"; ?>
 
 	<body>
@@ -11,9 +11,9 @@
 
 		<?php include "inc/nav.inc"; ?>
 		
-		<img class="mySlides" src="images/cwright.jpg" width="300">
-		<img class="mySlides" src="images/ghernan6.jpg" width="300">
-		<img class="mySlides" src="images/lfusilli.jpg" width="300">
+		<img class="mySlides" src="images/cwright.jpg" alt="cwright" width="300">
+		<img class="mySlides" src="images/ghernan6.jpg" alt="ghernan6" width="300">
+		<img class="mySlides" src="images/lfusilli.jpg" alt="lfusilli" width="300">
 		
 		<button class="w3-button" onclick="plusDivs(-1)">&#10094; Prev</button>
 		<button class="w3-button" onclick="plusDivs(1)">Next &#10095;</button>
